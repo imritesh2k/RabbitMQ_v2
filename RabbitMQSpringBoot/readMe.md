@@ -1,0 +1,1 @@
+http://localhost:8083/springboot-rabbitmq/producer?empName=emp1&empId=emp001

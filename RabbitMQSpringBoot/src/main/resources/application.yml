@@ -1,0 +1,18 @@
+server:
+  port: 8083
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  main:
+    allow-bean-definition-overriding: true
+
+springboot:
+  rabbitmq:
+    queue: springboot-rabbitmq-queue
+    exchange: springboot-rabbitmq-exchange
+    routingkey: springboot-rabbitmq-routingkey
+
